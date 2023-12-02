@@ -25,7 +25,7 @@ const Team = () => {
             return (
               <div
                 key={data.id}
-                data-aos="zoom-in-right"
+                data-aos="zoom-in"
                 className="w-full h-full shadow-2xl flex flex-col justify-center items-center rounded-md relative group  "
               >
                 <div className="relative">

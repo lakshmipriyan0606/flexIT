@@ -8,6 +8,7 @@ import PortfolioPages from "./pages/PortfolioPages"
 import BlogPages from "./pages/BlogPages"
 import ContactPages from "./pages/ContactPages"
 import ErrorPages from "./pages/ErrorPages"
+import ScrollToTopButton from "./component/scrollTop/Scroll"
 
 function App() {
   
@@ -25,6 +26,7 @@ function App() {
          <Route path="*" element={<ErrorPages/>}/>
       </Routes>
       <Footer/>
+      <ScrollToTopButton/>
      </div>
   )
 }

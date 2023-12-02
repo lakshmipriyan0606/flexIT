@@ -14,7 +14,7 @@ const Customer = () => {
   }, []);
   return (
     <main>
-      <div className="my-12 p-4 xl:my-3" data-aos="zoom-out">
+      <div className="my-12 p-4 xl:my-3" data-aos="fade-up">
         <Title
           title="WHY CHOOSE US"
           name="Why Our Customers Choose Working With Us"
@@ -23,7 +23,7 @@ const Customer = () => {
       </div>
       <section className=" ">
         <div className="my-9 p-4 flex flex-col lg:flex-row-reverse xl:my-2 xl:flex-row ">
-          <div className="m-5" data-aos="zoom-in-up">
+          <div className="m-5" >
             <img
               src={work}
               className="w-full h-[250px]  sm:h-[500px] lg:h-[600px]"
@@ -35,7 +35,7 @@ const Customer = () => {
             <div className="grid grid-cols-1 gap-6 p-4 ">
               {customerData.map((data, i) => {
                 return (
-                  <div key={i} className="flex flex-col gap-1 p-4" data-aos="fade-down-left">
+                  <div key={i} className="flex flex-col gap-1 p-4" data-aos="fade-in">
                     <h1 className="text-primary text-3xl font-medium">
                       {data.id} .{" "}
                     </h1>

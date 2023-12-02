@@ -55,7 +55,7 @@ const Testmonial = () => {
         }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="w-full h-[400px] sm:h-[450px] lg:h-[450px] xl:h-[350px] p-4 "
+        className="w-full h-[430px] sm:h-[450px] lg:h-[450px] xl:h-[350px] p-4 "
       >
         {Carousel.map((item, i) => {
           return (

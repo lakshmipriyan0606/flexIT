@@ -40,7 +40,7 @@ const Portfolio = () => {
             <Button name="See More" width="200px" />
           </div>
         </div>
-        <div className="grid grid-cols-3 sm:grid-cols-6 sm:my-5 pt-4 pl-1  gap-2 ">
+        <div className="grid grid-cols-3 sm:grid-cols-6 sm:my-5 pt-4   gap-2 pl-4 ">
           {category.map((data, i) => {
             return (
               <button

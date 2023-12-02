@@ -27,7 +27,7 @@ const About = () => {
 
       <div className="sm:my-12 flex flex-col  lg:flex-row-reverse lg:p-6 lg:items-center xl:my-2">
         <section>
-          <div data-aos="zoom-out">
+          <div >
             <img
               src={aboutImg}
               className="w-full h-[400px] sm:h-[500px] lg:h-[400px] lg:w-[800px]"
@@ -39,7 +39,7 @@ const About = () => {
           <section className="grid lg:grid-cols-2 gap-7 lg:gap-2 p-4">
             {aboutData.map((data) => {
               return (
-                <div className="group flex flex-col gap-5 p-4" key={data.id} data-aos="zoom-in-down" data-aos-duration="3000">
+                <div className="group flex flex-col gap-5 p-4" key={data.id} data-aos="fade-in" data-aos-duration="3000">
                   <h2 className="w-[70px] h-[70px] mb-0 group-hover:pb-2  rounded-md bg-[#DAF3FD] flex justify-center items-center group-hover:bg-primary group-hover:transition-all duration-500">
                     <img
                       src={data.img1}

@@ -122,7 +122,7 @@ const Footer = () => {
           </section>
           <section
             className="z-20"
-            data-aos="fade-left"
+            data-aos="fade-up"
             data-aos-duration="4000"
           >
             <div className=" p-4 top-[410px] sm:top-[300px] sm:pl-7  py-5 flex flex-col gap-4  z-10 text-white">
