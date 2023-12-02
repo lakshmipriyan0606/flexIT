@@ -70,7 +70,7 @@ const Header = () => {
         </div>
         <div className="flex items-center gap-3 text-xl text-white ">
         <FaSearch />
-          <MdSunny />
+          {/* <MdSunny /> */}
         </div>
         <SideNavbar nav={nav} handleNavbar={handleNavbar} setNav={setNav} NavLink = {Nav} />
       </main>
