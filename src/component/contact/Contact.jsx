@@ -19,7 +19,7 @@ Id Atque Dignissimos Repellat Quae Ullam"
           color="white"
           center="true"
         />
-        <Button name="Contact us " center= "true"/>
+        <Button name="Contact us " center= "true" color="white"/>
       </div>
     </div>
   );

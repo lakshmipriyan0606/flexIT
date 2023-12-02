@@ -6,6 +6,8 @@ import Footer from "./component/Footer/Footer"
 import ServicePages from "./pages/ServicePages"
 import PortfolioPages from "./pages/PortfolioPages"
 import BlogPages from "./pages/BlogPages"
+import ContactPages from "./pages/ContactPages"
+import ErrorPages from "./pages/ErrorPages"
 
 function App() {
   
@@ -19,6 +21,8 @@ function App() {
          <Route path="/service" element={<ServicePages/>}/>
          <Route path="/portfolio" element={<PortfolioPages/>}/>
          <Route path="/blog" element={<BlogPages/>}/>
+         <Route path="/contact" element={<ContactPages/>}/>
+         <Route path="*" element={<ErrorPages/>}/>
       </Routes>
       <Footer/>
      </div>

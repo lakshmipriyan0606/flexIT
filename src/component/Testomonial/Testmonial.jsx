@@ -55,7 +55,7 @@ const Testmonial = () => {
         }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="w-full h-[400px] sm:h-[450px] lg:h-[450px] xl:h-[650px] "
+        className="w-full h-[400px] sm:h-[450px] lg:h-[450px] xl:h-[350px] p-4 "
       >
         {Carousel.map((item, i) => {
           return (
@@ -66,7 +66,7 @@ const Testmonial = () => {
                   className="w-[50px] h-[50px] rounded-full object-cover  md:object-fill"
                   alt="caruosel-img"
                 />
-                <h1 className="p-5 text-center text-white">{item.desc}</h1>
+                <h1 className="p-5 text-center text-white lg:w-[650px]">{item.desc}</h1>
                 <h2 className="text-2xl font-medium text-white ">
                   {item.name}
                 </h2>

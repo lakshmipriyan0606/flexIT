@@ -61,7 +61,7 @@ const blogData = [
     date: "30 Jun 2023",
     service: "Feature",
     user: "Priyan",
-    title: "   Helping others can boost",
+    title: "   Helping others can boost  the world",
     detail:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Iure nulla dolorem, voluptates molestiae",
     img: blog6,
